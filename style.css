@@ -20,7 +20,23 @@ body{
     border-radius: 50px;
 }
 
-.oragami{
+.oragami1 h3{color:springgreen; position: absolute; top:45%; left: 25%;transform: translate(-50%,-50%);}
+.oragami1{
+    border-radius: 20px;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 30px;
+    margin: 35px;
+    
+    width: 310px;
+    font-family: fantasy;
+}
+
+.oragami2 h3{color:springgreen; position: absolute; top:125%; left: 25%;transform: translate(-50%,-50%);}
+.oragami2{
     border-radius: 20px;
     background-color: #ffffff;
 
@@ -43,6 +59,10 @@ body{
 a:link{color: #ffffff;}
 a:visited{color: deepskyblue;}
 
-.oragami:hover{
+.oragami1:hover{
+    transform: scale(1.1);
+}
+
+.oragami2:hover{
     transform: scale(1.1);
 }
